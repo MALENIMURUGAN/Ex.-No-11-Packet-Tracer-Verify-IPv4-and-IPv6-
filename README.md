@@ -1,5 +1,5 @@
 # Ex. No: 11 – Packet Tracer: Verify IPv4 and IPv6 Addressing
-# Date: ___________
+# Date: 13-11-2025
 ________________________________________<br>
 # Objective
 To configure, verify, and test dual-stack (IPv4 and IPv6) addressing on a Cisco Packet Tracer network topology.<br>
@@ -15,7 +15,7 @@ ________________________________________<br>
 • Copper straight-through and Serial DCE/DTE cables<br>
 ________________________________________<br>
 # Network Topology Diagram
-(Insert your Packet Tracer screenshot showing R1–R2–R3 in series and PCs connected to edge routers.)<br>
+<img width="3199" height="1799" alt="image" src="https://github.com/user-attachments/assets/f9163877-24c4-4167-a040-b63f78863daa" /><br>
 ________________________________________<br>
 # Addressing Table
 Device	Interface	IPv4 Address / Subnet Mask	IPv6 Address / Prefix	Default Gateway<br>
@@ -54,7 +54,7 @@ Observe the hops across R1 → R2 → R3.<br>
 4.	tracert 2001:db8:1:4::a<br>
 Record IPv6 path hops.<br>
 ________________________________________<br>
-# Commands Used (Summary)
+# Commands Used 
 Purpose	Command<br>
 Check IPv4 details	ipconfig /all<br>
 Check IPv6 details	ipv6config /all<br>
@@ -65,10 +65,9 @@ ________________________________________<br>
 • Successful ping replies indicate proper dual-stack connectivity.<br>
 • Trace route confirms correct path through routers R1–R2–R3.<br>
 ________________________________________
-# Output (Attach Screenshots)
-• ipconfig /all and ipv6config /all output for both PCs.<br>
-• Ping results for IPv4 and IPv6.<br>
-• Traceroute results showing intermediate hops.<br>
+# Output 
+<img width="3199" height="1799" alt="image" src="https://github.com/user-attachments/assets/60bbe704-da12-44b0-a79a-965dd3f1d96c" />
+
 ________________________________________
 # Result
 The dual-stack IPv4 and IPv6 addressing scheme was successfully verified. Both addressing types achieved full connectivity between PC1 and PC2 through multiple routers, confirming correct configuration and routing.
